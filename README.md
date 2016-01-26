@@ -1,2 +1,2 @@
 # Install-Scripts
-Linux install script (To make my life easier)
+A bunch of different scripts to install specific, or batch programs.
