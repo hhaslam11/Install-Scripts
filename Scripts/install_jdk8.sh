@@ -15,4 +15,5 @@ sudo apt-get install oracle-java8-installer
 echo Done installing JDK 8
 echo Setting environment variables..
 sudo apt-get install oracle-java8-set-default
+sudo apt-get autoremove
 echo All done!
