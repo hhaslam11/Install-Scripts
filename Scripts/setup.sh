@@ -14,6 +14,7 @@ sudo apt-get install sl
 sudo apt-get install whois
 sudo apt-get install httrack
 sudo apt-get install git
+sudo apt-get install gccgo-go
 sudo apt-get update
 sudo apt-get autoremove
 clear
