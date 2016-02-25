@@ -15,6 +15,7 @@ sudo apt-get install whois
 sudo apt-get install httrack
 sudo apt-get install git
 sudo apt-get install gccgo-go
+sudo apt-get install bf
 clear
 cd /
 sudo apt-get update
