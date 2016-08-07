@@ -12,5 +12,6 @@ sudo echo "<IfModule mod_dir.c>
 </IfModule>" >> /etc/apache2/mods-enabled/dir.conf
 sudo apt-get install nodejs
 sudo apt-get install npm
+npm install --global gulp
 sudo apt-get autoremove
 clear
