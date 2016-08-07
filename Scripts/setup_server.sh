@@ -10,5 +10,6 @@ sudo echo "<IfModule mod_dir.c>
           DirectoryIndex index.php index.html index.cgi index.pl index.php index.xhtml index.htm
 
 </IfModule>" >> /etc/apache2/mods-enabled/dir.conf
+sudo apt-get install nodejs
 sudo apt-get autoremove
 clear
