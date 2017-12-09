@@ -9,6 +9,6 @@ rm Ampps-3.8-x86_64.run
 sudo apt-get -y update
 sudo apt-get install -y nodejs
 sudo apt-get install -y npm
-npm install --global gulp
+sudo npm install --global gulp
 sudo apt-get install -y filezilla
 sudo apt-get -y autoremove
