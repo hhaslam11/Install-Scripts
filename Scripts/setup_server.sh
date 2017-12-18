@@ -1,7 +1,8 @@
 cd /
 sudo apt-get -y update
 sudo apt-get install -y apache2
-sudo apt-get install -y mysql-server libapache2-mod-auth-mysql php-mysql
+sudo apt-get install -y mysql-server
+sudo apt-get install -y php-mysql
 sudo mysql_install_db
 sudo /usr/bin/mysql_secure_installation
 sudo apt-get install -y php libapache2-mod-php php-mcrypt
