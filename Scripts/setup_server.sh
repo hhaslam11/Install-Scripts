@@ -11,6 +11,10 @@ sudo echo "<IfModule mod_dir.c>
           DirectoryIndex index.php index.html index.cgi index.pl index.php index.xhtml index.htm
 
 </IfModule>" >> /etc/apache2/mods-enabled/dir.conf
+sudo apt-get install phpmyadmin php-mbstring php-gettext
+sudo phpenmod mcrypt
+sudo phpenmod mbstring
+sudo systemctl restart apache2
 sudo apt-get install -y nodejs
 sudo apt-get install -y npm
 sudo npm install --global gulp
