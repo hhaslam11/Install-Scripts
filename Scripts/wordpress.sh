@@ -16,4 +16,5 @@ wget https://wordpress.org/latest.zip
 sudo apt-get install -y unzip
 unzip latest.zip
 mv -v wordpress/* ./
-rm wordpress/
+rmdir wordpress/
+rm latest.zip
