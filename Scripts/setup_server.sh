@@ -16,6 +16,7 @@ sudo phpenmod mcrypt
 sudo phpenmod mbstring
 sudo systemctl restart apache2
 sudo apt-get install -y nodejs
+sudo apt-get install -y nodejs-legacy
 sudo apt-get install -y npm
 sudo npm install --global gulp
 sudo apt-get -y autoremove
