@@ -8,6 +8,7 @@ rm bitnami-lampstack-7.1.12-0-linux-x64-installer.run
 
 sudo apt-get -y update
 sudo apt-get install -y nodejs
+sudo apt-get install -y nodejs-legacy
 sudo apt-get install -y npm
 sudo npm install --global gulp
 sudo apt-get install -y filezilla
